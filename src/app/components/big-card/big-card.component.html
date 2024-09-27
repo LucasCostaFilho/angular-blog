@@ -1,19 +1,19 @@
 <div class="big__card__container">
   <div class="big-card__foto">
     <img
-      src="https://www.womantowomanmentoring.org/wp-content/uploads/placeholder.jpg"
+      src="{{ photoCover }}"
       alt=""
       srcset=""
     >
   </div>
 
   <div class="big-card__titulo">
-    <h1><a href="#">Lorem ipsum dolor sit amet.</a></h1>
+    <h1><a href="{{ linkTitle }}">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__descricao">
-    <a href="#">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid earum, fugiat nemo reiciendis, architecto excepturi repellat accusamus iusto consequatur sint eos modi ad facilis dolor possimus dolorem, quia beatae quidem.</p>
+    <a href="{{ linkTitle }}">
+      <p>{{ cardDescription }}</p>
     </a>
   </div>
 </div>
